@@ -10,8 +10,9 @@ header, footer, aside , nav{
     background-color: rgb(132, 168, 75);
 }
 
-header, footer{
+.header, .footer{
     text-align: center;
+    background-color: magenta;
 }
 
 
@@ -19,7 +20,6 @@ header, footer{
     font-size: 30px;
     width: 100%;
     display: inline-block; /*si pongo solo block, el fondo solo ocupa el ancho de las letras*/
-    background-color: rgb(132, 168, 75);
 }
 
 .footer{
@@ -48,6 +48,7 @@ header, footer{
     margin-bottom: 2%;
     width: 20%;
     display: inline-block;
+    background-color: blue;
     
 } 
 .sidebar{
@@ -66,3 +67,11 @@ html *{
     font-size: 14px;
     font-weight: 900; 
 }*/
+
+/*7)Imagine there is a declaration like class=”oh-no-inline-styles” style=”background:red” 
+and you need to change the background to green without changing the inline style. How could you accomplish this?
+
+.oh-no-inline-styles {
+    background-color:green !important; 
+}
+*/
