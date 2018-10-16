@@ -1,6 +1,8 @@
 
 
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -27,7 +29,7 @@ width. Using a container will make designing for responsive easier! */
 
 .container {
     margin: 0 auto;
-    max-width: 90rem;
+    max-width: 80rem;
     width: 90%;
     padding-top: 3%;
   }
@@ -70,7 +72,6 @@ no longer need to worry about removing margins.   */
 
 
 
-
 /*my own styles*/
 
   
@@ -95,15 +96,16 @@ body{
 }
 
 .column.third{
-   position: relative;
-    float:left;   
+    position: relative;
+      
     width: 33.3%;
 }
 
 .column img{
-    height: 150px;
+    height: 30vh;
     width: 200px;
     filter: grayscale(80%);
+
 }
 
 .column:hover img{
