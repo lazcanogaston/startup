@@ -1,3 +1,5 @@
+//exercise 1
+
 function showSection(id){
     var element = document.getElementById(id);
  
@@ -6,4 +8,8 @@ function showSection(id){
  
  window.addEventListener("load", function(){showSection("hidden")});
  
- 
+ //exercise 2
+
+function displayAlert(){
+    window.alert("WELCOME!");
+}
