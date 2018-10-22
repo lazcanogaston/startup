@@ -16,3 +16,11 @@ footer{
     width: 100%;
     bottom: 0;
 }
+
+#joke.error{
+    background-color: red;
+}
+
+#joke{
+    background-color: white;
+}
