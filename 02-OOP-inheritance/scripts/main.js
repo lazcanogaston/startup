@@ -113,10 +113,27 @@ film.resume();
 
 
 
+//exercise 4 mixin
+
+//Create an object called social, defining the methods share(friendName)
+//and like(friendName) that generates the following output {friendName} likes/share {movieName}.
+
+let social = {
+    share(friendName){
+        console.log(friendName + " shared " + this.title + ".");
+    },
+
+    like(friendName){
+        console.log(friendName + " likes " + this.title + ".");
+    }
+}
 
 
+var film2= new Movie("pelicula2", 1998, 125);
+Object.assign(film2, social);
+Object.assign(film, social);
 
 
-
-
-
+film2.share("santiago");
+film2.like("maria");
+film.share("gaston");
