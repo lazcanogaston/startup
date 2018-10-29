@@ -92,3 +92,5 @@ function deleteDb(){
     }  
 }
 
+
+//EXERCISE 2
