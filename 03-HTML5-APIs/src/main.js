@@ -116,3 +116,5 @@ function handleFileSelect(evt) {
   var dropZone = document.getElementById('text');
   dropZone.addEventListener('dragover', handleDragOver, false);
   dropZone.addEventListener('drop', handleFileSelect, false);
+
+  
