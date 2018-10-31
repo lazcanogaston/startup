@@ -1,0 +1,23 @@
+section div{
+    border: 1px solid black;
+    padding: 25px;
+    width: 23%;
+    text-align: center;
+    
+}
+
+.svg{
+    stroke: black;
+    stroke-width: 2;
+    fill: rgb(112, 65, 96);
+    transition: all 3s;
+
+}
+
+.svg:hover{
+    stroke: black;
+    stroke-width: 2;
+    fill:rgba(197, 39, 131, 0.555);
+    transform: scale(0.5);
+}
+
