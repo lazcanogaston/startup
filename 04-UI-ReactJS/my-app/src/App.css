@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+  }
+  
+  .Header {
+    background-color: #2c6df0;
+    width:100%;
+    display: inline-block;
+    color: white;
+  }
+  
