@@ -1,16 +1,25 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View, ScrollView} from 'react-native';
+import Box from './Box';
 export default class TestView extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+        <View style={{flexDirection: 'row',width:'50%'}}>
+          <ScrollView style={{height:'50%', backgroundColor: 'black'}}>
+            <View style={styles.container}>
+              <Box color="red" />
+              <Box color="blue" />
+              <Box color="pink" />
+              <View style={{width: '80%', height: 100, backgroundColor: 'red'}} />
+              <View style={{width: '50%', height: 150, backgroundColor: 'blue'}} />
+              <View style={{width: '80%', height: 100, backgroundColor: 'red'}} />
+              <View style={{width: '50%', height: 150, backgroundColor: 'blue'}} /> 
+            </View>
+          </ScrollView>
+        </View>
         
-        <View style={{height: 150, backgroundColor: 'black'}} />
-        <View style={{width: 100, height: 100, backgroundColor: 'red'}} />
-        <View style={{width: 50, height: 150, backgroundColor: 'blue'}} />
       
-      </View>
+      
     );
   }
 }
@@ -21,11 +30,11 @@ const styles = StyleSheet.create({
       flex: 1,
       flexDirection: 'column',
       alignItems: 'stretch',
-      top: '5%',
-      backgroundColor: '#088A85',
+      
+      //backgroundColor: '#088A85',
       //alignItems: 'center',   
       justifyContent: 'center',
-      width:'100%',
+   
       opacity: 0.6,
     },
   });

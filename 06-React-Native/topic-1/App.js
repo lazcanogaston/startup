@@ -6,8 +6,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>HOLA COMO ESTAN?</Text>
-        <TestView/>
+        <Text>MY APP</Text>
+        <TestView/> 
+      
       </View>
       
     );
@@ -17,9 +18,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: 'yellow',  
+    alignItems: 'center', 
     width: '100%',
     marginTop: '10%',
   },
