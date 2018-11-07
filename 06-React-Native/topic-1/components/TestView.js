@@ -5,9 +5,11 @@ export default class TestView extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>I'M A TEST VIEW COMPONENT!! </Text>
-        <View style={ {flex:0.3, width: '20%', backgroundColor: 'blue'}}></View>
         
+        <View style={{height: 150, backgroundColor: 'black'}} />
+        <View style={{width: 100, height: 100, backgroundColor: 'red'}} />
+        <View style={{width: 50, height: 150, backgroundColor: 'blue'}} />
+      
       </View>
     );
   }
@@ -17,10 +19,13 @@ export default class TestView extends React.Component {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+      flexDirection: 'column',
+      alignItems: 'stretch',
+      top: '5%',
       backgroundColor: '#088A85',
-      alignItems: 'center',
+      //alignItems: 'center',   
       justifyContent: 'center',
-      width: '80%',
+      width:'100%',
       opacity: 0.6,
     },
   });
