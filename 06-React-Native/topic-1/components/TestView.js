@@ -6,13 +6,26 @@ export default class TestView extends React.Component {
     return (
         <View style={{flexDirection: 'row',width:'50%'}}>
           <ScrollView style={{height:'50%', backgroundColor: 'black'}}>
-            <View style={styles.container}>
+          
+          <Text style={{fontFamily: 'serif', fontSize: 25 ,fontWeight: 'bold', color: 'red'}}>
+              Hi! --
+              <Text  style={{color: 'red', fontSize: 35}}>
+                I --
+              </Text>
+              <Text style={{color: 'blue'}}>
+                am --
+              </Text>
+              <Text style={{color: 'green', fontSize: 45}}>
+                Gastón --
+              </Text>
+          </Text>
+                <View style={styles.container}>
               <Box color="red" />
               <Box color="blue" />
               <Box color="pink" />
               <View style={{width: '80%', height: 100, backgroundColor: 'red'}} />
               <View style={{width: '50%', height: 150, backgroundColor: 'blue'}} />
-              <View style={{width: '80%', height: 100, backgroundColor: 'red'}} />
+              <View style={{width: '100%', height: 100, backgroundColor: 'red'}} />
               <View style={{width: '50%', height: 150, backgroundColor: 'blue'}} /> 
             </View>
           </ScrollView>
