@@ -13,10 +13,7 @@ export default class App extends React.Component {
           style={{width: 50, height: 50}}
           source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
           /> 
-          <Image style={{marginTop: '5%', width: 120, height: 80}}
-            source={require('./media/landscape4.jpg')}
-          />
-        </View>
+          </View>
 
         <TestView/> 
         
