@@ -4,8 +4,8 @@ import Box from './Box';
 export default class TestView extends React.Component {
   render() {
     return (
-        <View style={{flexDirection: 'row',width:'50%'}}>
-          <ScrollView style={{height:'50%', backgroundColor: 'black'}}>
+        <View style={{flexDirection: 'row',width:'50%', marginTop: '5%'}}>
+          <ScrollView style={{height:'25%', backgroundColor: 'black'}}>
           
           <Text style={{fontFamily: 'serif', fontSize: 25 ,fontWeight: 'bold', color: 'red'}}>
               Hi! --
