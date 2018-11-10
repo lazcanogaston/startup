@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         paddingTop: '4%',
         flex: 1,
         backgroundColor: '#27A5BE',
-        flexDirection:'row', //change to 'column' to see how the blocks changes their positions and complete all the device height 
+        flexDirection:'column', //change to 'column' to see how the blocks changes their positions and complete all the device height 
        // alignItems: 'flex-start',
         justifyContent: 'space-around',
         
@@ -19,13 +19,13 @@ const styles = StyleSheet.create({
     mediumBox:{
         margin: '4%',
         backgroundColor: '#7527BE',
-        height: '20%',
+        height: '30%',
         width: '30%'
     },
     bigBox:{
         margin: '4%', 
         backgroundColor: 'white',
-        height: '20%',
+        height: '50%',
         width: '30%'
         
     },
