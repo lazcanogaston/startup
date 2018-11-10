@@ -1,10 +1,18 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
         paddingTop: '4%',
         flex: 1,
-        backgroundColor: 'green',
+        ...Platform.select({
+            ios:{
+                backgroundColor: 'grey'
+            },
+            android: {
+                backgroundColor: 'green'
+            }
+        }),
+        
         flexDirection:'column', //change to 'column' to see how the blocks changes their positions and complete all the device height 
         alignItems: 'flex-start',
         justifyContent: 'space-around',
