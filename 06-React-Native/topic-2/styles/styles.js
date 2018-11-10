@@ -6,27 +6,30 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#27A5BE',
         flexDirection:'column', //change to 'column' to see how the blocks changes their positions and complete all the device height 
-       // alignItems: 'flex-start',
+        alignItems: 'flex-start',
         justifyContent: 'space-around',
         
       },    
-    littleBox:{
+    Box_1:{
         margin: '4%', 
         backgroundColor: 'red',
         height: '20%',
-        width: '30%'
+        width: '20%'
+        
     },
-    mediumBox:{
+    Box_2:{
         margin: '4%',
         backgroundColor: '#7527BE',
-        height: '30%',
-        width: '30%'
+        height: '20%',
+        width: '20%',
+        alignSelf: 'center'
     },
-    bigBox:{
+    Box_3:{
         margin: '4%', 
         backgroundColor: 'white',
-        height: '50%',
-        width: '30%'
+        height: '20%',
+        width: '20%',
+        alignSelf: 'flex-end'
         
     },
     bRadius:{

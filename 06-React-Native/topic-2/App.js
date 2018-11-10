@@ -7,9 +7,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={[styles.littleBox, styles.bRadius]}/>
-        <View style={[styles.mediumBox, styles.bRadius]}/>
-        <View style={[styles.bigBox, styles.bRadius]}/>  
+        <View style={[styles.Box_1, styles.bRadius]}/>
+        <View style={[styles.Box_2, styles.bRadius]}/>
+        <View style={[styles.Box_3, styles.bRadius]}/>  
       </View>
     );
   }
