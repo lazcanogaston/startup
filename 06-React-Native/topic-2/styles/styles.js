@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     container: {
         paddingTop: '4%',
         flex: 1,
-        backgroundColor: '#27A5BE',
+        backgroundColor: 'green',
         flexDirection:'column', //change to 'column' to see how the blocks changes their positions and complete all the device height 
         alignItems: 'flex-start',
         justifyContent: 'space-around',
