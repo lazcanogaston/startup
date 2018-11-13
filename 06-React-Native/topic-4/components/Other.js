@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class Screen extends React.Component {
+export default class Other extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>screen 1!</Text>
+        <Text>others!</Text>
       </View>
     );
   }
